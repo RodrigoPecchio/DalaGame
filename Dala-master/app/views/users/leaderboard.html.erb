@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="leaderboard.scss">
+
+<div class="leaderboard-wrapper">
+  <%= image_tag("Dala_trophy.png", class: "user-Dala") %>
+  <p id="leaderboard-title">Leaderboard</p>
+</div>
+
+
+
+
+<div class="leader-header">
+  <div class="image-wrapper">
+    <%= image_tag("Adventurer2.png", class: "user-Dala") %>
+    <div id ="first-standing-progress-bar" class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:80%; font-size: xx-large;" >
+          Level 1: 80% Complete
+    </div>
+  </div>
+
+  <div class="image-wrapper">
+    <%= image_tag("Poet2.png", class: "user-Dala") %>
+    <div id="second-standing-progress-bar" class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:70%; font-size: xx-large;">
+      Level 1: 70% Complete
+    </div>
+  </div>
+
+  <div class="image-wrapper">
+    <%= image_tag("Scientist2.png", class: "user-Dala") %>
+    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%; font-size: xx-large;">
+      Level 1: 60% Complete
+    </div>
+  </div>
+
+  <div class="image-wrapper">
+    <%= image_tag("Poet1.png", class: "user-Dala") %>
+    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%; font-size: xx-large;">
+      Level 1: 50% Complete
+    </div>
+  </div>
+</div>
+<%= link_to 'Back', root_path, class: 'btn btn-info', id: 'button' %>
+
+  </div>
+
+  <script>
+  </script>
